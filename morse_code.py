@@ -55,8 +55,8 @@ user_text = input("Enter the words to be translated: \n").lower()
 print("Translating .....")
 
 # Set delay times (in seconds)
-dot_dash_delay = 0.2  # delay between dots and dashes
-letter_delay = 0.5    # delay between letters
+dot_dash_delay = 0  # delay between dots and dashes
+letter_delay = 0    # delay between letters
 word_delay = 1.0      # delay between words
 
 # Translate and play Morse code
